@@ -27,8 +27,8 @@ I also explored the syntax of Markdown.
    - when you create a function you are defining it, an example is this: def function()
 
 2. Arguments vs Parameters
-   - Example: we have a function the adds A and B. A and B are the parameters, now lets say the user inputed in the function, 5 and 4. 5 and 4 are the arguments. The function then returns 9.
-   - The difference between arguments and parameters is the argument is the value passed into the function and parameters are variables whose value is passed into the function
+   - Example: we have a function that adds A and B. A and B are the parameters, now lets say the user inputed in the function, 5 and 4. 5 and 4 are the arguments. The function then returns 9.
+   - The difference between arguments and parameters is the argument is the value provided in a function and parameters are variables whose value is passed into the function
 3. Types
    - A dict (short of dictionary) is a list of data values
    - A Tuple is a type of list used to store multiple values in a variable
