@@ -30,8 +30,8 @@ I also explored the syntax of Markdown.
    - Example: we have a function that adds A and B. A and B are the parameters, now lets say the user inputed in the function, 5 and 4. 5 and 4 are the arguments. The function then returns 9.
    - The difference between arguments and parameters is the argument is the value provided in a function and parameters are variables whose value is passed into the function
 3. Types
-   - A dict (short of dictionary) is a list of data values
-   - A Tuple is a type of list used to store multiple values in a variable
+   - A dictionary is a list of data values
+   - A tuple is like a list but its values cannot be changed unlike a list who's value's can be changed
 4. A little bit of design
    - Good design has: form and function
    - Form is a shape, structure, or body.
@@ -50,7 +50,7 @@ I also explored the syntax of Markdown.
    - the simplest way I'm going to explain a pattern is by this: (0909090909). This may look like a random string of 0's and 9's but look! everytime there's a 0, there's a 9, that's a pattern.
 6. The 3 part finale...part 1: domain and range
    - Let's say I was trying different ways of typing a website's name to try to get to the website converting.calculatorlol. I tried these searches: c.clol, convert.calclol, and cm to in. These searches worked and I was brought to the website I was aiming for. Yet when I tried: lolconvert, I was not brought to the website this is how I can relate this to domain and range. so I inputed: "lolconvert", and I was not brought to the website I wanted, why? because what I searched was not in the **domain** of searches that would get you to the website: "converting.calculatorlol". Think of a domain as filled brain of information, ex: Let's say you are pasta legend, if someone asked you something about pasta you would probably know, because it's in your **domain**, so you say: yeah I know what your talking about and you give an answer, also known as the **range**. Now let's say they asked you about steak, you probably wouldn't know what there asked, because what there asking is not in your domain!
-7. Part 2: token's and blank space symbol
+7. Part 2: token's and blank space symbol‎‎‎
    - No these aren't the token's you use at ChuckyCheese or something, so what are token's? think of them like this: So I tried different ways to get to the website: "converting.calculatorlol". I tried 4 different searches, but what was common between all 4 searches that it got me to the website? That's where tokens come in. Let's start with the first search: c.clol, Let's say that "c" = <'a'>, we just made our first token! You see we can use token's to repersent bits or parts in a language. Now let's countinue, so I'm going to create a few more tokens:
    "." = <'b'>
    "l" = <'c'>
