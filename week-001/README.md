@@ -1,6 +1,6 @@
 # Getting started with Python
 ## Day 1
-1. Variables
+  1. Variables
    - A variable has a value that can be many types of values such as a number
 2. Built-in functions
    - such as print, float, and int
@@ -49,9 +49,10 @@ I also explored the syntax of Markdown.
 5. What is dis pattern
    - the simplest way I'm going to explain a pattern is by this: (0909090909). This may look like a random string of 0's and 9's but look! everytime there's a 0, there's a 9, that's a pattern.
 6. The 3 part finale...part 1: domain and range
-   - Let's say I was trying different ways of typing a website's name to try to get to the website converting.calculatorlol. I tried these searches: c.clol, convert.calclol, and cm to in. These searches worked and I was brought to the website I was aiming for. Yet when I tried: lolconvert, I was not brought to the website this is how I can relate this to domain and range. so I inputed: "lolconvert", and I was not brought to the website I wanted, why? because what I searched was not in the **domain** of searches that would get you to the website: "converting.calculatorlol". Think of a domain as filled brain of information, ex: Let's say you are pasta legend, if someone asked you something about pasta you would probably know, because it's in your **domain**, so you say: yeah I know what your talking about and you give an answer, also known as the **range**. Now let's say they asked you about steak, you probably wouldn't know what there asked, because what there asking is not in your domain!
+   - Let's say I was trying different ways of typing a website's name to try to get to a converting calculator. I tried these searches: 1cm to in, cm to inches, centimeters to inches, 1cm in, cm in, and 1 cm in. These searches worked and I was brought to the converting calculator. because what I searched was in the **domain** of searches that would get you to the converting calculator website. Think of a domain as filled brain of information ex: Let's say you are pasta legend, if someone asked you something about pasta you would probably know, because it's in your **domain**, so you say: yeah I know what your talking about and you give an answer, also known as the **range**. Now let's say they asked you about steak, you probably wouldn't know the answer to their question, because what there asking is not in your domain!
 7. Part 2: token's and blank space symbol‎‎‎
-   - No these aren't the token's you use at ChuckyCheese or something, so what are token's? think of them like this: So I tried different ways to get to the website: "converting.calculatorlol". I tried 4 different searches, but what was common between all 4 searches that it got me to the website? That's where tokens come in. Let's start with the first search: c.clol, Let's say that "c" = <'a'>, we just made our first token! You see we can use token's to repersent bits or parts in a language. Now let's countinue, so I'm going to create a few more tokens:
+   - No these aren't the token's you use at ChuckyCheese or something, so what are token's? think of them like this: So I tried different ways to get to the converting calculator. I tried 8 different searches that worked, but what was common between all 8 searches that it got me to the website? That's where tokens come in. Let's start with the first search: 1cm to in, we can use token's to represent bits or parts in a language. So now I'm going to make some token's:
+   "c" = <'a'>
    "." = <'b'>
    "l" = <'c'>
    "o" = <'d'>
