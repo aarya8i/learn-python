@@ -1,10 +1,13 @@
-# Bite sized learning of Python and Markdown
+# Bite sized learning of Python
 
-This repo contains my notes and programs gathered on my journey to master Python. My progress is tracked by the week.
-
-## Roadmap
-1. Learn basics of Python using a simple `convert.py` program
+This repo contains my notes and programs gathered on my journey to master Python. My aim is to learn
+Python every week.
 
 
+- [Getting started with Python](posts/001-getting-started-with-python.md/)
+- [Escape characters](posts/002-escape-characters.md)
+- [Functions, parameters, and types](posts/003-functions-parameters-and-types.md)
+- [Problems, patterns and parsing](posts/004-problems-patterns-and-parsing.md)
 
-# [Week 001](./week-001/README.md)
+
+
