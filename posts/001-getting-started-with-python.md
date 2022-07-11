@@ -9,7 +9,9 @@
 - Everything is an object (object-oriented)
 
 ## What are variables?
-A variable has a value that can be many types of values such as a number
+A variable has a value that can be many types of values such as a number.
+To declare a variable you use the equal sign like this ex: (x = 12).
+When you print "x" it comes out like this: 12
 
 ## What are built-in functions
 Built in functions in python are functions that are already installed.
@@ -17,6 +19,8 @@ Some built in functions are: operators, print, float, and int
 
 ## What are strings
 Strings are similar to variables only they store text.
+When you are declaring a string you use quotation marks like so: (s = "string")
+When you print "s" it comes out like this: string
 
 
 I used all of these topic's to create a simple program and named it [convert.py](./convert.py)
