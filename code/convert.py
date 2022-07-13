@@ -14,11 +14,20 @@ conversion_table = {
 }
 
 def convert(base, to, units):
-    multiplier = conversion_table[(base, to)];
+    multiplier = conversion_table[(base, to)]
     return units * multiplier
 
 #  parse a question into parts...
 #  see posts/004-problems-patterns-and-parsing.md
+
+convertdict = {
+    "cm": "A"
+    "to": "B"
+    "in": "C"
+    "inches": "D"
+    "centimeters": "E"
+    " ": "␢"
+}
 def parse(question):
     print("you asked \"{}\", working on it...".format(question))
     #1. break the question into tokens; tokens are separated by whitespace
@@ -29,6 +38,9 @@ def parse(question):
     #4. if input is not parseable (i.e not understandable) then a tuple
     #   as below is returned:
     #        (false, "not in my domain of expertise to answer that question")
+    tokens = question.split()
+    print("'{}' has {} tokens, will keep working on it".format(question, len(tokens)))
+
 
 # 1. describe what this program does for the user
 # 2. prompt the user type in their request
