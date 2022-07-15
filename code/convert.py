@@ -21,12 +21,11 @@ def convert(base, to, units):
 #  see posts/004-problems-patterns-and-parsing.md
 
 convertdict = {
-    "cm": "A"
-    "to": "B"
-    "in": "C"
-    "inches": "D"
+    "cm": "A",
+    "to": "B",
+    "in": "C",
+    "inches": "D",
     "centimeters": "E"
-    " ": "␢"
 }
 def parse(question):
     print("you asked \"{}\", working on it...".format(question))
@@ -39,9 +38,9 @@ def parse(question):
     #   as below is returned:
     #        (false, "not in my domain of expertise to answer that question")
     tokens = question.split()
+    for token in tokens:
+        print(token in convertdict)
     print("'{}' has {} tokens, will keep working on it".format(question, len(tokens)))
-
-
 # 1. describe what this program does for the user
 # 2. prompt the user type in their request
 print("this program converts from one measurement system to another... for example, inches to centimeters")

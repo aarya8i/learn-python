@@ -70,10 +70,10 @@ Now with these new higher order tokens, it looks like this:
 
 Now a few patterns emerge, so in the end we reduce our original list down to:
 
-1. `NX␢Y` (? tokens)
-2. `X␢Y`  (? tokens)
-3. `NX␢Y` (? tokens)
-4. `N␢X␢Y`(? tokens)
+1. `NX␢Y`  (3 tokens)
+2. `X␢Y`   (2 tokens)
+3. `NX␢Y`  (3 tokens)
+4. `N␢X␢Y` (3 tokens)
 
 That seems to be a lot of work to reduce a list 7 variations down to 4. But once we know how to
 parse out `X` and `Y`, we can parse anything; for example `kilo` instead of `cm` and `pounds` instead of `inches`.
