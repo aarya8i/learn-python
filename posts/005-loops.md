@@ -11,3 +11,5 @@ Loops are function can can repeat piece of code. Loops can be repeated as many t
 Loops are very helpful. They can be used for many things like: going through all the elements of a list or doing operations on values.
 
 # What types of loops are there?
+
+There are two types of loops: For loops and While loops. While loops run code until a condition is met. A For loop runs code repeatedly.

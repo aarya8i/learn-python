@@ -25,7 +25,13 @@ convertdict = {
     "to": "B",
     "in": "C",
     "inches": "D",
-    "centimeters": "E"
+    "centimeters": "E",
+    "feet": "f",
+    "ft": "g",
+    "yards": "h",
+    "yd": "i",
+    "miles": "j",
+    "mi": "k"
 }
 def parse(question):
     print("you asked \"{}\", working on it...".format(question))
@@ -40,6 +46,9 @@ def parse(question):
     tokens = question.split()
     for token in tokens:
         print(token in convertdict)
+    token = False
+    if token == False:
+        print("ur bad")
     print("'{}' has {} tokens, will keep working on it".format(question, len(tokens)))
 # 1. describe what this program does for the user
 # 2. prompt the user type in their request
