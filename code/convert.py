@@ -20,19 +20,23 @@ def convert(base, to, units):
 #  parse a question into parts...
 #  see posts/004-problems-patterns-and-parsing.md
 
-convertdict = {
-    "cm": "A",
-    "to": "B",
-    "in": "C",
-    "inches": "D",
-    "centimeters": "E",
-    "feet": "f",
-    "ft": "g",
-    "yards": "h",
-    "yd": "i",
-    "miles": "j",
-    "mi": "k"
-}
+keywords = set([
+    "cm", "centimeter", "centimeters",
+    "in", "inch", "inches",
+    "ft", "foot", "feet",
+    "yd", "yard", "yards",
+    "mi", "mile", "miles",
+    "m", "meter", "meters",
+    "to", "from"
+])
+
+
+def parse_number_before_unit(token):
+    # if token is of the form Nstr, where 'N' is a number and 'str' a valid keyword
+    # then return (true, N, keyword)
+    # else return (false, token)
+    pass
+
 def parse(question):
     print("you asked \"{}\", working on it...".format(question))
     #1. break the question into tokens; tokens are separated by whitespace
@@ -44,12 +48,19 @@ def parse(question):
     #   as below is returned:
     #        (false, "not in my domain of expertise to answer that question")
     tokens = question.split()
+    lex = {}
     for token in tokens:
-        print(token in convertdict)
-    token = False
-    if token == False:
-        print("ur bad")
-    print("'{}' has {} tokens, will keep working on it".format(question, len(tokens)))
+        if (token in keywords):
+            lex[token] = 'keyword'
+        else:
+            if token.isdigit():
+                lex[token] = 'number'
+            else:
+                print("hmmm, have to check if {} starts with a number".format(token))
+
+    print(lex)
+
+    print("'{}' has {} tokens, will keep working on it".format(question, len(lex)))
 # 1. describe what this program does for the user
 # 2. prompt the user type in their request
 print("this program converts from one measurement system to another... for example, inches to centimeters")
